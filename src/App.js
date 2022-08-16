@@ -7,13 +7,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>REACT SERVER INVENTORY</p>
+        <h1>REACT SERVER INVENTORY</h1>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hi Batman! This is React, <code>./src/App.js</code> is your base file.
-        </p>
-        <p>
-          <b>Edit, save and it reloads.</b>
         </p>
         <p>
           I want to add React to <br></br>
