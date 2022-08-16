@@ -1,22 +1,29 @@
-import logo from './logo.svg';
+import logo from './app.png';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <p>REACT SERVER INVENTORY</p>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Hi Batman! This is React, <code>./src/App.js</code> is your base file.
         </p>
-        <a
+        <p>
+          <b>Edit, save and it reloads.</b>
+        </p>
+        <p>
+          I want to add React to <br></br>
+          <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://ernestac.github.io/serv.inventory/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          this.
         </a>
+        </p>
       </header>
     </div>
   );
