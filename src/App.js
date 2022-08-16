@@ -1,7 +1,7 @@
 import logo from './app.png';
 import './App.css';
 
-
+const vVolume = 100;
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
         <h1>REACT SERVER INVENTORY</h1>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
+          {vVolume}
         </p>
         <p>
           I want to add React to <br></br>
