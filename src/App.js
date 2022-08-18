@@ -1,3 +1,4 @@
+import React from 'react';
 import logo from './app.png';
 import './App.css';
 
@@ -11,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>LMODELS ECOMMERCE</h1>
+        <h1>l.gauge</h1>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           <NavBar />
