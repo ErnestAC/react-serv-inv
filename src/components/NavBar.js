@@ -1,13 +1,13 @@
 const NavBar = () => {
-  return (
-    <nav>
-      <ul>
-        <li>Link1</li>
-        <li>Link2</li>
-        <li>Link3</li>
-      </ul>
+    return (
+        <nav>
+        l.gauge    
+        <ul>
+            <li><a href="a">Models</a></li>
+            <li><a href="a">About</a></li>
+        </ul>
     </nav>
-  );
+    );
 };
 
 export default NavBar;
