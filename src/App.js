@@ -17,9 +17,11 @@ function App() {
           title='l.gauge'
           subtitle='We sell LEGO models'
         />
-      </header>
         <NavBar />
-      <div>
+      </header>
+        
+{/* CARD COMPONENT TEST, PLEASE IGNORE!
+        <div>
         <CardComponent
           name='Test'
           date='This should be a date!'
@@ -27,7 +29,7 @@ function App() {
           image='../assets/images/engine_trm.png'
         />
       </div>
-    </div>
+ */}    </div>
   );
 }
 
