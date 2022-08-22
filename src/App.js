@@ -4,10 +4,7 @@ import './App.css';
 // COMPONENTS
 import NavBar from "./components/NavBar";    
 import Header from './components/Header/Header';
-import CardComponent from './components/CardComponent/CardComponent';
-
-//RANDOM CONSTANT
-const vVolume = 100;
+// import CardComponent from './components/CardComponent/CardComponent';
 
 function App() {
   return (
@@ -19,8 +16,7 @@ function App() {
         />
         <NavBar />
       </header>
-        
-{/* CARD COMPONENT TEST, PLEASE IGNORE!
+  {/* CARD COMPONENT TEST, PLEASE IGNORE!
         <div>
         <CardComponent
           name='Test'

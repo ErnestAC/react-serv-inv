@@ -701,6 +701,26 @@ body {
     margin-top: 8.2rem;
   }
 }
+
+
+/* how to handle links and anchors in general */
+a {
+  color: white;
+}
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a​:active, a​:visited {
+  color: white;
+  text-decoration: none;
+}
+a​:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 @media screen and (min-width: 371px) {
   .flex-item-articles, .flex-item-articles-half-width, .flex-item-articles-summary {
     display: flex;

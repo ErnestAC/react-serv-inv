@@ -3,8 +3,7 @@ import './styles/main.css';
 const NavBar = () => {
     return (
         <nav>
-        <p className="special-text">l.gauge</p>
-        <ul className='reg-text'>
+        <ul className='special-text'>
                 <li><a href="http://google.com">Models</a></li>
                 <li><a href="http://google.com">Manuals</a></li>
                 <li><a href="http://google.com">Cart</a></li>
