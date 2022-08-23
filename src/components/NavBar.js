@@ -3,12 +3,20 @@ import './styles/main.css';
 const NavBar = () => {
     return (
         <nav>
-        <ul className='special-text'>
-                <li><a href="http://google.com">Models</a></li>
-                <li><a href="http://google.com">Manuals</a></li>
-                <li><a href="http://google.com">Cart</a></li>
-                <li><a href="http://bing.com">About</a></li>
-        </ul>
+        <div className='flex-container-articles'>
+                <div className='flex-button'>
+                    <a href="http://google.com">models</a>
+                </div>
+                <div className='flex-button'>
+                    <a href="http://google.com">manuals</a>
+                </div>
+                <div className='flex-button'>
+                    <a href="http://google.com">about</a>
+                </div>
+                <div className='flex-button'>
+                    <a href="http://google.com">cart</a>
+                </div>
+        </div>
     </nav>
     );
 };

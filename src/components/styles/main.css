@@ -16,25 +16,24 @@
 }
 /* general tags */
 h1 {
-  font-family: "Roboto";
+  font-family: "VAGRounded";
   line-height: 2.5rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
   padding-left: 0.6rem;
   padding-top: 0.6rem;
   padding-right: 0.6rem;
-  padding-bottom: 0.6rem;
-  margin: 0rem;
+  padding-bottom: 1.6rem;
+  margin: 0.1rem;
   text-align: left;
-  color: black;
+  color:white;
   width: 100%;
-  background-image: linear-gradient(aqua, rgba(0, 192, 192, 0.4));
 }
 h2 {
   color: white;
   background-color: #004040;
   font-family: "Roboto";
   font-weight: 100;
-  line-height: 1.9rem;
+  line-height: 1.3rem;
   font-size: 1.2rem;
   padding-left: 0.6rem;
   padding-top: 0.6rem;
@@ -152,7 +151,7 @@ body {
   align-items: center;
   display: flexbox;
   background-color: rgba(5, 5, 5, 0.95);
-  width: 30%;
+  width: 100%;
   height: auto;
   border-radius: 4px;
   word-wrap: normal;
@@ -203,7 +202,7 @@ body {
 .flex-item-articles img {
   display: block;
   height: auto;
-  width: 34px;
+  width: 20%;
   border-radius: 5px;
   transition: all 0.5s;
 }

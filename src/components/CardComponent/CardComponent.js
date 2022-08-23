@@ -6,31 +6,32 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
-export default function CardComponent(props) {
+export default function CardComponent({ name,date,description,image }) {
     return (
-        <Card sx={{ maxWidth: 345 }}>
+        <div className='flex-item-articles'>
+        <Card sx={{ maxWidth: 400 }}>
         <CardMedia
             component="img"
             height="140"
-            image='../assets/images/engine_trm.png'
-            alt="a picture"
+            image={image}
+            title="a picture"
         />
         <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-                    {props.name}
+                    {name}
             </Typography>
             <Typography variant="body2" color="text.secondary">
-                    {props.date}
+                    {date}
             </Typography>
-            <Typography variant="body3" color="text.secondary">
-                    {props.description}
+            <Typography variant="body3" color="text.tertiary">
+                    {description}
             </Typography>
-            
+
         </CardContent>
         <CardActions>
             <Button size="small">Share</Button>
             <Button size="small">Learn More</Button>
         </CardActions>
-        </Card>
-    );
+            </Card>
+        </div>    );
 }
